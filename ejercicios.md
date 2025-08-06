@@ -118,3 +118,56 @@ squareDigits(9119) ➞ [81, 1, 1, 81]
 ```js
 findLowest([-1, 3, 5, 6, 99, 12, 2]) ➞ -1
 ```
+
+19. Crear un programa que reciba un array de números, y que devuelva el número entero más alto que sea a su vez sea un número par. Si el usuario ingreso solo números impares se debe devolver -1.
+
+**Ejemplo**
+
+```js
+largestEven([3, 7, 2, 1, 7, 9, 10, 13]) ➞ 10
+```
+
+20. Crear una función recursiva que permita determinar si un string es un palíndromo (es una palabra o frase que se lee igual en un sentido que en otro).
+
+21. Crear un programa que permita determinar si un número ingresado por el usuario es múltiplo de 3, 5, y 11 simultáneamente.
+
+22. Crear un programa que reciba un array de números, y que devuelva la sumatoria de todos los números. Para resolver el ejercicio debe usar una función recursiva.
+
+**Ejemplo**
+
+```js
+sumArray([1, 2, 3]) ➞ 6
+```
+
+23. Crear una función que reciba un array como parámetro y retorne un array con dos elementos. Donde, el primer elemento debe sumar todos los números pares y el segundo elemento debe sumar todos los números impares.
+
+**Ejemplo**
+
+```js
+sumOddAndEven([1, 2, 3, 4, 5, 6]) ➞ [12, 9] // 2 + 4 + 6 = 12 y 1 + 3 + 5 = 9
+```
+
+24. Crear un programa que permita determinar si un número ingresado por el usuario es múltiplo de 3, 5, y 10 simultáneamente.
+
+25. Crear un programa que reciba un número y lo devuelva con sus cifras invertidas.
+
+```js
+ reverse(5121) ➞ "1215"
+```
+
+26. Crear un programa que reciba un array de números y retorne un array ordenado de mayor a menor.
+
+**Ejemplo**
+
+```js
+[3, 6, 1, 8, 9, 2, 5] ➞ [9, 8, 6, 5, 3, 2, 1]
+```
+
+27. Crear una función que tome un array como parámetro y retorne el segundo número más pequeño del conjunto. Debe haber como mínimo dos números para hacer la comparación.
+
+**Ejemplo**
+
+```js
+secondLowest([10, 40, 30, 20, 50]) ➞ 20
+
+```
