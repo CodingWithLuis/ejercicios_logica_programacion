@@ -331,3 +331,82 @@ arrayOfMultiples(7, 5) ➞ [7, 14, 21, 28, 35]
 ```
 
 48. Crear una función que acepte un string, y retorne si el string es o no un palíndromo. Un palíndromo es una palabra que se lee igual de derecha a izquierda y viceversa.
+
+49. Crear una función que acepte un array de números y retorne el segundo número más alto y el segundo número más pequeño.
+
+**Ejemplo**
+
+```js
+[1,2,3,4,5] ➞ [2, 4]
+```
+
+50. Crear una función que acepte un string de países y retorne el país más grande.
+
+**Ejemplo**
+
+```js
+["Australia", "Alemania", “Estados Unidos"] ➞ Estados Unidos
+```
+
+51. Crear una función que solicite un año al usuario, debe determinar si el año ingresado es bisiesto o no.
+
+52. Crear una función que acepte dos números como parámetros, se debe retornar un nuevo array con rango de valores entre esos números. Debe usar una función recursiva.
+
+**Ejemplo**
+
+```js
+range(2, 9) ➞ [3, 4, 5, 6, 7, 8]
+```
+
+53. Crear una función que acepte un array de números, calcule la sumatoria del cuadrado de los números ingresados utilizando una función de flecha y al final calcule el promedio.
+
+54. Crear una función que acepte un número, su tarea es retornar la sumatoria de todos los dígitos de ese número.
+**Ejemplo**
+
+```js
+124 ➞ 7
+```
+
+55. Crear una función que acepte un array de números, su tarea es rotar dicho array una posición a la izquierda.
+
+**Ejemplo**
+
+```js
+[1, 2, 3] ➞ [2,3,1] 
+
+```
+
+56. Crear una función que acepte dos arrays como parámetros, su tarea es combinar ambos arrays en uno solo.
+
+**Ejemplo**
+
+```js
+array1 = [1, 2, 3]; array2 = [4, 5, 6]; ➞ [1, 2, 3, 4, 5, 6] 
+```
+
+57. Crear una función que acepte un string como parámetro y determine si el string ingresado es un palíndromo, es decir, una palabra que se lee igual de izquierda a derecha y viceversa, debe usar una función recursiva.
+
+58. Crear una función que reciba como parámetro un número de dos dígitos luego intercambie ese número y determine si el número ingresado es el menor.
+
+**Ejemplo**
+
+```js
+lowestSwap(27) ➞ true 
+lowestSwap(43) ➞ false
+```
+
+> **Explicación**: En el caso del 27, devuelve true debido a que el número invertido es 72, y 27 es menor que 72. En el caso del 43 devuelve false, debido a que el número invertido de 43 es 34 y 43 no es menor que 34.
+
+59. Crear una función que reciba como parámetro dos números, el primero es el punto inicial y el segundo el punto final, su tarea es imprimir en un array el cubo de todos los números comprendidos entre los números ingresados por el usuario incluyendo dichos números.
+
+**Ejemplo**
+
+```js
+cube(3, 5) ➞ [27, 64, 125]
+```
+
+60. Crear una función que reciba un parámetro numérico, en base a ese número calcular la serie de Fibonacci, usando una función recursiva.
+
+```js
+Serie de Fibonacci 0, 1, 1, 2, 3, 5, 8, 13, 21, 34…
+```
