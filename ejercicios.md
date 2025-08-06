@@ -66,9 +66,33 @@ specialReverse("word searches are super fun", "s") ➞ "word sehcraes are repus 
 
 12. Crear una función que reciba un número como parámetro, y devolver la suma total de ese número multiplicada por cada número entre 1 y 10. Debe usar una función recursiva.
 
-Ejemplo
+**Ejemplo**
 
 ```js
 multiSum(1) ➞ 55 // 1 x 1 + 1 x 2 + 1 x 3 ...... 1 x 9 + 1 x 10 = 55
+```
+
+13. Crear una función que reciba como parámetro un array. Devolver los dos valores más pequeños ingresados.
+
+**Ejemplo**
+
+```js
+lowest([2, 3, 10, 1, 15]) ➞ [2, 1]
+```
+
+14. Crear una función que calcule el número de letras y dígitos que contiene un string. Devuelva el resultado como un objecto.
+
+**Ejemplo**
+
+```js
+countAll("H3ll0 Wor1d") ➞ { "LETTERS":  7, "DIGITS": 3 }
+```
+
+15. Cree una función que encuentre el número entero más alto de un array usando recursividad.
+
+**Ejemplo**
+
+```js
+findHighest([-1, 3, 5, 6, 99, 12, 2]) ➞ 99
 
 ```
