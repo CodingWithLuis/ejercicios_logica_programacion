@@ -214,3 +214,120 @@ moveToEnd([7, 8, 9, 1, 2, 3, 4], 9) ➞ [7, 8, 1, 2, 3, 4, 9]
 
 moveToEnd(["a", "a", "a", "b"], "a") ➞ ["b", "a", "a", "a"]
 ```
+
+34. Crear una función que acepte un string y retorne otro string pero con cada una de las letras repetidas una vez.
+
+**Ejemplo**
+
+```js
+doubleChar("String") ➞ "SSttrriinngg" doubleChar("Hello World!") ➞ "HHeelllloo  WWoorrlldd!!"
+```
+
+35. Crear una función que acepte un número como parámetro, retorne un nuevo array en orden descendente.
+
+**Ejemplo**
+
+```js
+sortDescending(123) ➞ [3, 2, 1]
+```
+
+36. Crear una función que acepte dos strings como parámetros, retorna true o false en caso de que los string sean un anagrama.
+
+**Ejemplo**
+
+```js
+isAnagram("Dave Barry", "Ray Adverb") ➞ true. Ejemplo de Anagrama. Roma ➞ Amor
+```
+
+37. Crear una función que acepte un string y retorne un nuevo string pero en orden inverso.
+
+**Ejemplo**
+
+```js
+reverseWords("the sky is blue") ➞ "blue is sky the". 
+```
+
+38. Crear una función que acepte un número y retorne el digito más alto de ese número.
+
+**Ejemplo**
+
+```js
+highestDigit(377401) ➞ 7
+```
+
+39. Crear una función que acepte un número en formato string y retorne este número sin los ceros al inicio y al final de dicho número sin que afecten el valor del número.
+
+**Ejemplo**
+
+```js
+removeZeros ("230.000") ➞ "230" 
+removeZeros ("00402") ➞ "402"
+removeZeros ("03.1400") ➞ "3.14" 
+removeZeros("30") ➞ "30"
+```
+
+40. Crear una función que acepte un número y retorne la cantidad de dígitos que contiene dicho número. No puede convertir a string el número para resolver el ejercicio.
+
+**Ejemplo**
+
+```js
+num_of_digits(1000) ➞ 4 
+```
+
+41. Crear una función que acepte un array de string y que retorne un nuevo array ordenado de la palabra más pequeña a la más grande.
+
+**Ejemplo**
+
+```js
+sortByLength(["Turing", "Einstein", "Jung"]) ➞ ["Jung", "Turing", "Einstein"]
+```
+
+42. Crear una función que acepte tres números y retorne la cantidad de números que son iguales.
+
+**Ejemplo**
+
+```js
+equal(3, 4, 3) ➞ 2
+```
+
+43. Crear una función que acepte un array de números, remueva los números duplicados utilizando la función “reduce”.
+
+**Ejemplo**
+
+```js
+[18, 21, 1, 1, 51, 18, 21, 5, 18, 7, 10] ➞ [18, 21, 1, 51, 5, 7, 10]
+```
+
+44. Crear una función que acepte un array de números y retorne la sumatoria de los números cuadrados de los números ingresados.
+
+**Ejemplo**
+
+```js
+sumOfPower([3, 4]) ➞ 25
+```
+
+45. Crear una función que acepte un string, y retorne un nuevo string con la primera letra de cada palabra en mayúsculas.
+
+**Ejemplo**
+
+```js
+hola como estas ➞ Hola Como Estas
+```
+
+46. Crear una función que acepte dos números como parámetros, y retorne un nuevo array con los múltiplos del primer parámetro y que lleguen hasta el array alcance la longitud del segundo parámetro.
+
+**Ejemplo**
+
+```js
+arrayOfMultiples(7, 5) ➞ [7, 14, 21, 28, 35] 
+```
+
+47. Crear una función que acepte un string y retone el string en orden inverso. Tiene que usar una función recursiva.
+
+**Ejemplo**
+
+```js
+“hello” ➞ “olleh”
+```
+
+48. Crear una función que acepte un string, y retorne si el string es o no un palíndromo. Un palíndromo es una palabra que se lee igual de derecha a izquierda y viceversa.
