@@ -32,3 +32,43 @@ power(3, 5) ➞ [9, 16, 25]
 ```
 
 6. Crear un programa que permita determinar si un número ingresado por el usuario es múltiplo de 2, 5, 7 simultáneamente
+
+7. Crear una función que retorne un nuevo array con valores pares y positivos únicamente (excluyendo el cero), el nuevo array debe estar en el mismo orden en que encuentre los valores.
+
+**Ejemplo**
+
+```js
+uniqueArr([10, 6, -12, 13, 5, 13]) ➞ [10, 6]
+```
+
+8. Crear un programa que permita determinar cuántas veces se repite las letras **“i”**, **“a”** y **“u”** de un string. Debe imprimir la cantidad de cada una.
+
+9. Crear una función que retorne un string pero únicamente retorne aquellos string que no se repite ningún carácter entre sí.
+
+**Ejemplos**
+
+```js
+filterUnique(["abb", "abc", "abcdb", "aea", "bbb"]) ➞ ["abc"]
+filterUnique(["88", "999", "989", "9988", "9898"]) ➞ []
+filterUnique(["ABCDE", "DDEB", "BED", "CCA", "BAC"]) ➞ ["ABCDE", "BED", "BAC"]
+```
+
+10. Crear una función que reciba dos parámetros, el primero es un string y el segundo es una letra, debe invertir todas las palabras que comiencen con la letra ingresada.
+
+**Ejemplos**
+
+```js
+specialReverse("word searches are super fun", "s") ➞ "word sehcraes are repus fun"
+
+```
+
+11. Crear una función que tome un array como parámetro y retorne el segundo número más grande del conjunto. Debe haber como mínimo dos números para hacer la comparación
+
+12. Crear una función que reciba un número como parámetro, y devolver la suma total de ese número multiplicada por cada número entre 1 y 10. Debe usar una función recursiva.
+
+Ejemplo
+
+```js
+multiSum(1) ➞ 55 // 1 x 1 + 1 x 2 + 1 x 3 ...... 1 x 9 + 1 x 10 = 55
+
+```
