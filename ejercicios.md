@@ -5,7 +5,8 @@
 **Ejemplo**
 
 ```js
-largestSwap(27) ➞ false largestSwap(43) ➞ true
+largestSwap(27) ➞ false
+largestSwap(43) ➞ true
 ```
 
 > Explicación: En el caso del 27, devuelve false debido a que el número invertido es 72, y 27 no es mayor que 72. En el caso del 43 devuelve true, debido a que el número invertido de 43 es 34 y 43 es mayor que 34.
@@ -410,3 +411,17 @@ cube(3, 5) ➞ [27, 64, 125]
 ```js
 Serie de Fibonacci 0, 1, 1, 2, 3, 5, 8, 13, 21, 34…
 ```
+
+61. Crear una función que acepte un número como parámetro, se debe retornar si el número ingresado es par. Debe usar una función recursiva.
+
+62. Crear una función que acepte un número como parámetro, la función debe retornar el siguiente patrón según el número ingresado. Use un for anidado.
+
+```js
+*  
+* *  
+* * *  
+* * * *  
+* * * * * 
+```
+
+63. Crear una función que acepte dos arrays como parámetros, su tarea es unir esos arrays en uno solo, y eliminar los valores repetidos.
