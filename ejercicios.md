@@ -94,5 +94,27 @@ countAll("H3ll0 Wor1d") ➞ { "LETTERS":  7, "DIGITS": 3 }
 
 ```js
 findHighest([-1, 3, 5, 6, 99, 12, 2]) ➞ 99
+```
 
+16. Crear un programa que una todos los elementos de un array en un string separado por comas.
+
+**Ejemplo**
+
+```js
+colors = ["Rojo", "Verde", "Blanco", "Negro"]; ➞ "Rojo,Green,White,Black"
+```
+
+17. Crear una función que reciba un número como parámetro y que retorne un nuevo array con el cuadrado de los dígitos del número ingresado.
+**Ejemplo**
+
+```js
+squareDigits(9119) ➞ [81, 1, 1, 81]
+```
+
+18. Cree una función que encuentre el número entero más pequeño de un array usando recursividad.
+
+**Ejemplo**
+
+```js
+findLowest([-1, 3, 5, 6, 99, 12, 2]) ➞ -1
 ```
