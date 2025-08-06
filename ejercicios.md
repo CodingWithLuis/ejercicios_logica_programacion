@@ -169,5 +169,48 @@ sumOddAndEven([1, 2, 3, 4, 5, 6]) ➞ [12, 9] // 2 + 4 + 6 = 12 y 1 + 3 + 5 = 9
 
 ```js
 secondLowest([10, 40, 30, 20, 50]) ➞ 20
+```
 
+28. Crear una función que acepte dos strings como parámetros y retorne la cantidad de veces que se repite el primer string (tiene que ser un único carácter) en el segundo string.
+
+**Ejemplo**
+
+```js
+charCount("b", "big fat bubble") ➞ 4
+```
+
+29. Crear un programa que reciba un array de números entre 1 y 10, pero al momento de ingresarlos se debe excluir un número, la función debe retornar el número que se excluyó.
+
+**Ejemplo**
+
+```js
+missingNum([10, 5, 1, 2, 4, 6, 8, 3, 9]) ➞ 7
+```
+
+30. Crear una función que tome un número como parámetro, su tarea es sumar todos los números empezando en 1 hasta el número que el usuario ingresó.
+
+**Ejemplo**
+
+```js
+si el usuario ingresa el número 4, el programa debe retornar 10, es decir, 1 + 2 + 3 + 4 = 10
+```
+
+31. Crear una función que acepte dos parámetros, el primero es un string y el segundo parámetro es un número entero, que simboliza la cantidad de veces que se debe repetir el string ingresado como primer parámetro.
+
+**Ejemplo**
+
+```js
+repetition("cherry", 2) ➞ "cherrycherry"
+```
+
+32. Crear una función que acepte un array de números como parámetro, la función tiene que devolver la suma de todos los números negativos. Si la matriz no contiene números negativos, devuelve 0.
+
+33. Crear una función con dos parámetros, el primer parámetro son todos los elementos del array y el segundo parámetro es el elemento que se va a mover al final del array.
+
+**Ejemplo**
+
+```js
+moveToEnd([7, 8, 9, 1, 2, 3, 4], 9) ➞ [7, 8, 1, 2, 3, 4, 9]
+
+moveToEnd(["a", "a", "a", "b"], "a") ➞ ["b", "a", "a", "a"]
 ```
