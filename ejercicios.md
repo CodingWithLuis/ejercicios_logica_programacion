@@ -425,3 +425,297 @@ Serie de Fibonacci 0, 1, 1, 2, 3, 5, 8, 13, 21, 34…
 ```
 
 63. Crear una función que acepte dos arrays como parámetros, su tarea es unir esos arrays en uno solo, y eliminar los valores repetidos.
+
+64. Crear una función que reciba como parámetro un array. Devolver los tres valores más pequeños en orden ascendente.
+
+**Ejemplo**
+
+```js
+lowest([2, 3, 10, 1, 15, 4]) ➞ [1, 2, 3]
+```
+
+65. Crear una función que acepte un string de países y retorne el país más pequeño.
+
+**Ejemplo**.
+
+```js
+["Chile", "Alemania", “Estados Unidos"] ➞ Chile
+```
+
+66. Crear una función con dos parámetros, el primer número es la base, y el segundo número es el exponente, devuelva el resultado final. Dede usar una función recursiva.
+
+**Ejemplo**
+
+```js
+exponente(2, 5) = 32
+```
+
+67. Crear un programa que acepte un número y coloque guiones entre cada uno de sus dígitos.
+
+**Ejemplo**
+
+```js
+25468 ➞ 2 – 5 – 4 – 6 - 8
+```
+
+68. Crear una función que reciba un número como parámetro y que retorne un nuevo array con el cubo de los dígitos del número ingresado.
+
+**Ejemplo**
+
+```js
+squareDigits(3112) ➞ [27, 1, 1, 27]
+
+```
+
+69. Cree una función que encuentre el número entero más alto de un array usando recursividad.
+
+**Ejemplo**
+
+```js
+findLargest([-1, 3, 5, 6, 99, 12, 2]) ➞ 99
+```
+
+70. Crear un programa que permita determinar si un número ingresado por el usuario es múltiplo de 2, 5, 11 simultáneamente
+
+71. Crear un programa que reciba un array de números y retorne un array ordenado de menor a mayor. Debe usar una función recursiva.
+
+**Ejemplo**
+
+```js
+[3, 6, 1, 8, 9, 2, 5] ➞ [1, 2, 3, 5, 6, 8, 9]
+```
+
+72. Crear una función que tome un array como parámetro y retorne los dos números más altos del conjunto en un array ordenados de mayor a menor. Debe haber como mínimo tres números para hacer la comparación.
+
+**Ejemplo**
+
+```js
+largest([10, 40, 30, 20, 50]) ➞ [50, 40]
+```
+
+73. Crear una función que reciba un número entero y determinar si el número es múltiplo de 13, 11, 2 simultáneamente.
+
+74. Crear una función que acepte dos números y calcule el **Máximo Común Divisor** usando una función recursiva.
+
+**Ejemplo**
+
+```js
+12 es el MCD de 36 y 60. Pues 12|36 y 12|60; a su vez 12 es divisible por 1, 2, 3, 4, 6 y 12 que son divisores comunes de 36 y 60
+```
+
+75. Crear una función con dos parámetros, el primer parámetro son todos los elementos del array y el segundo parámetro es el elemento que se va a mover al inicio del array.
+
+**Ejemplo**
+
+```js
+move([7, 8, 9, 1, 2, 3, 4], 9) ➞ [9, 7, 8, 1, 2, 3, 4],
+move(["b", "b", "b", "a"], "a") ➞ ["a", "b", "b", "b"]
+```
+
+76. Crear una función que reciba dos arrays como parámetros y calcule la sumatoria de cada índice del array.
+
+**Ejemplo**
+
+```js
+array1 = [1,0,2,3,4]; array2 = [3,5,6,7,8,13];  ➞  [4, 5, 8, 10, 12, 13]
+```
+
+77. Crear una función que acepte un arrays de números y calcule el producto de los valores ingresados. Use una función recursiva.
+
+**Ejemplo**
+
+```js
+[1, 2, 3, 4] ➞ 24
+```
+
+78. Crear una función que acepte un string y un número, la función debe truncar la palabra según el número ingresado.
+
+**Ejemplo**
+
+```js
+truncate('The quick brown fox jumps over the lazy dog', 4) ➞  "The quick brown fox"
+```
+
+79. Crear una función que acepte un array de números y devuelva un array con el tercer número más alto y el tercer número más pequeño.  
+
+**Ejemplo**
+
+```js
+[1, 2, 5, 10, 6, 9] ➞ [6, 5]
+```
+
+80. Crear una función que acepte un número y retorne un array con los dos números más pequeños.
+
+**Ejemplo**
+
+```js
+lowestTwoDigits(376401) ➞ [0, 1]
+```
+
+81. Crear una que acepte un número entero, debe iterar desde 1 hasta el número ingresado y debe imprimir en pantalla si cada número es par o impar.
+
+**Ejemplo**
+
+```js
+"1 es impar"
+"2 es par"
+```
+
+82. Crear una función que acepte un string como parámetro, la función debe generar todas las combinaciones posibles de dicho número.
+
+**Ejemplo**
+
+```js
+'dog' ➞  d, do, dog, o, og, g
+```
+
+83. Crear una función que acepte un array de string y que retorne un nuevo array ordenado de la palabra más grande a la más pequeña.
+
+**Ejemplo**
+
+```js
+sortByLength(["Turing", "Einstein", "Jung"]) ➞ ["Einstein", "Turing", "Jung"]
+```
+
+84. Crear una función que acepte tres números y retorne la cantidad de números que no son iguales.
+
+**Ejemplo**
+
+```js
+notEqual(3, 4, 3) ➞ 1
+```
+
+85. Crear una función que acepte un array de números, su tarea es rotar dicho array una posición a la derecha.
+
+**Ejemplo**
+
+```js
+[1, 2, 3] ➞ [3, 1, 2]
+```
+
+86. Cree una función que tome dos strings como parámetros, retorne la cantidad de letras que comparten entre sí.
+
+**Ejemplo**
+
+```js
+sharedLetters("hola", "Elena") ➞ 2 // Dado que "la" están en ambas palabras "hola" y "Elena".
+```
+
+87. Crear una función que acepte un string como parámetro, debe contar la cantidad de letras y números que posee el string. Debe devolver la cantidad invidual.
+
+**Ejemplo**
+
+```js
+“Hola tengo 3 manzanas” ➞  hay 17 letras y 1 número
+```
+
+88. Crear una función que reciba tres números, el tercer número será el divisor del rango de números generados a partir de los dos primeros números ingresados por el usuario. Debe retornar un nuevo array con los números que son divisibles.
+
+**Ejemplo**
+
+```js
+evenlyDivisible(1, 10, 2) ➞ [2, 4, 6, 8, 10]
+```
+
+89. Cree una función que reciba un número, su tarea es retornar un array con las dos mitades del número.
+
+**Ejemplo**
+
+```js
+numberSplit(4) ➞ [2, 2]
+numberSplit(11) ➞ [5, 6]
+```
+
+90. Crear una función que acepte un array de números, su tarea es calcular la sumatoria de los dos números más pequeños del array.
+
+**Ejemplo**
+
+```js
+sumTwoSmallestNums([19, 5, 42, 2, 77]) ➞ 7
+```
+
+91. Crear una función recursiva que reciba un número y que retorne la doble factorial o semifactorial de un número.
+
+**Ejemplo**
+
+```js
+doubleFactorial(0) ➞ 1
+doubleFactorial(6) ➞ 48 //6*4*2 
+doubleFactorial(9) ➞ 945  // 9*7*5*3*1 = 945
+```
+
+92. Cree una función que acepte un array de números, su tarea es calcular la media y la mediana de dichos números.
+**Ejemplo**
+
+```js
+[10, 15, 20, 45] Media es: 22.5 y la mediana es 17.5
+```
+
+93. Crear una función que acepte un array de números, su tarea es calcular la sumatoria de los dos números más grandes del array.
+
+**Ejemplo**
+
+```js
+sumTwoLargestNums([19, 5, 42, 2, 77]) ➞ 119
+```
+
+94. Crear una función recursiva que reciba un array de números y determine cual es el número impar más grande. En caso no se ingrese ningún número impar debe retornar 0.
+
+95. Cree una función que reciba dos números, crear una función que capture esos números y determinar si la sumatoria de los dígitos de esos números es igual entre sí.
+
+**Ejemplo**
+
+```js
+isEqual([105, 42]) ➞ true # 1 + 0 + 5 = 6  # 4 + 2 = 6
+```
+
+96. Crear una función que acepte un array de números, su tarea es calcular la sumatoria de los tres números más grandes del array.
+
+**Ejemplo**
+
+```js
+sumThreeLargestNums([19, 5, 42, 2, 77]) ➞ 138
+```
+
+97. Crear una función recursiva que reciba un array de números y determine cual es el número par más grande. En caso no se ingrese ningún número par debe retornar -1.
+
+98. Cree una función que reciba un array de números, determine si todos los números ingresados son números primos.
+
+**Ejemplo**
+
+```js
+allPrime([2, 3, 5, 7, 13, 17, 19, 23, 29]) ➞ true
+```
+
+99. Crear una función que acepte un array de números, su tarea es calcular la sumatoria de los tres números más pequeños del array.
+
+**Ejemplo**
+
+```js
+sumThreeLowestNums([19, 5, 42, 2, 77]) ➞ 26
+```
+
+100. Crear una función recursiva que acepte dos números enteros, la función debe retornar cuántas veces el primer número puede ser dividido entre el segundo número y seguir siendo mayor.
+
+**Ejemplo**
+
+```js
+halveCount(4666, 544) ➞ 3 // (4666 -> 2333 -> 1166.5 -> 583.25) 
+```
+
+101. Crear una función que reciba como parámetro un array de números, tanto positivos como negativos, la función debe retornar la sumatoria con el valor absoluto de cada número.
+
+**Ejemplo**
+
+```js
+getAbsSum([2, -1, 4, 8, 10]) ➞ 25
+
+```
+
+102. Crear una función que reciba dos números, pero en formato de string, retorna la sumatoria de esos números también en formato string.
+
+**Ejemplo**
+
+```js
+add("111", "111") ➞ "222"
+```
